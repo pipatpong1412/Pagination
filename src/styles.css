@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Athiti', 'Helvetica Neue';
+}
+body {
+  background-color: #dadada;
+}
+
+.app {
+  flex-direction: column;
+  padding: 20px 20px;
+  margin: 50px;
+  height: 500px;
+  width: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.search-bar input {
+  width: 210px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.product-list li {
+  list-style: none;
+  text-align: left;
+}
+
+.product-list li:hover {
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-list button {
+  padding: 5px;
+  margin: 7px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.disabledButton {
+  pointer-events: none;
+  opacity: 0.5;
+}
